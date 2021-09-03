@@ -28,4 +28,12 @@ export const Content = styled.div`
             filter: brightness(0.9);
         }
     }
+
+    @media(max-width: 768px) {
+        max-width: 100%;
+        flex-direction: column;
+        gap: 2rem;
+
+        padding: 2rem 1rem 6rem;
+    }
 `

@@ -17,7 +17,6 @@ export function Summary() {
       acc.withdraw += transaction.amount;
       acc.total -= transaction.amount;
     }
-
     return acc;
   },{
     deposit: 0,
@@ -52,7 +51,7 @@ export function Summary() {
           }).format(summary.withdraw)}
         </strong>
       </div>
-      <div>
+      <div className={summary.total > 0 ? "greencontainer" : "redcontainer" }>
         <header>
           <p>Total</p>
           <img src={TotalImg} alt="Total" />

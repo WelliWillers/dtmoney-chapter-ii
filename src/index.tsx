@@ -16,10 +16,10 @@ createServer({
       transactions: [
         {
           id: 1,
-          title: 'Freelancer de web site',
+          title: 'Luz',
           type: 'withdraw',
-          category: 'Frela',
-          amount: 500,
+          category: 'casa',
+          amount: 166.44,
           createdAt: new Date('2021-02-12 05:00:55'),
         }
       ],
