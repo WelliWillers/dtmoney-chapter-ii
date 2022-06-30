@@ -14,14 +14,14 @@ createServer({
   seeds(server) {
     server.db.loadData({
       transactions: [
-        {
-          id: 1,
-          title: 'Luz',
-          type: 'withdraw',
-          category: 'casa',
-          amount: 166.44,
-          createdAt: new Date('2021-02-12 05:00:55'),
-        }
+        // {
+        //   id: 1,
+        //   title: 'Luz',
+        //   type: 'withdraw',
+        //   category: 'casa',
+        //   amount: 166.44,
+        //   createdAt: new Date('2021-02-12 05:00:55'),
+        // }
       ],
     })
   },
